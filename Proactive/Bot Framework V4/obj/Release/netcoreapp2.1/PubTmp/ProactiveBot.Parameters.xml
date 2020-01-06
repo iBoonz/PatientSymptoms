@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="patientsymptombot" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Proof\ of\ concepts\\Clinical\ Support\ System\\MedicalAlertBot\\16\.proactive-messages\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>

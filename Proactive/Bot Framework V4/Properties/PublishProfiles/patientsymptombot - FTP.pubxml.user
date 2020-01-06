@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAL5aPcD4YA02sqjXL26GEPQAAAAACAAAAAAADZgAAwAAAABAAAAB1vh+zJpMlqSUwesa23dDwAAAAAASAAACgAAAAEAAAAE09FTQykao5xzV/723sFeOAAAAAMVLeP/ajzFKKCiTj+NqSajIUvF49EJBz4Kee0i9Y6Ck+MSqANAWAv+uxWktB9olGRvCr2T84hJRzV3wPOhcfqoV+MNmmYWpBH3QXtf1LJmAkbqEwe8RdiUS16/qk6gV9exRfg6pow3sGH4O3o9N0PbEFGx0xBYD9SaHodc/V6SYUAAAAcz7GcC9uTzrVNUSEPP3m/zMwZu8=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-am2-113.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdaptiveCards.dll">
+      <publishTime>03/07/2018 07:20:54</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/27/2019 21:17:00</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/28/2019 10:41:56</publishTime>
+    </File>
+    <File Include="HtmlAgilityPack.dll">
+      <publishTime>10/06/2019 14:34:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

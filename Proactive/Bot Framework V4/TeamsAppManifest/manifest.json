@@ -1,0 +1,58 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.3",
+    "version": "1.0.0",
+    "id": "81be556c-3f62-489d-ae2b-e8408f020834",
+    "packageName": "com.teams.samples.patientsymptoms",
+  "developer": {
+    "name": "patientsymptoms",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuse"
+  },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+  "name": {
+    "short": "Patient Symptom Checker",
+    "full": "Patient Symptom Checker"
+  },
+  "description": {
+    "short": "Helps the caregiver in its daily job",
+    "full": "Helps the caregiver in its daily job"
+  },
+    "accentColor": "#FFFFFF",
+    "bots": [
+      {
+        "botId": "3483aaa8-48ab-4496-aebf-618c9cd07ac3",
+        "scopes": [
+          "team"
+        ],
+        "commandLists": [
+          {
+            "scopes": [
+              "team"
+            ],
+            "commands": [
+              {
+                "title": "Subscribe on patient symptoms",
+                "description": "Receive notifications when a patient has registed their symptoms"
+              },
+              {
+                "title": "Unsubscribe on Patient Symptoms",
+                "description": "Don't recieve notifications for patient symptoms "
+              }
+            ]
+          }
+        ],
+        "supportsFiles": false,
+        "isNotificationOnly": false
+      }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}

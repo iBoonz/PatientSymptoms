@@ -1,0 +1,27 @@
+{
+  "address": {
+    "channelId": "msteams",
+    "user": {
+      "id": ""
+    },
+    "conversation": {
+      "id": ""
+    },
+    "bot": {
+      "id": ""
+    },
+    "serviceUrl": "https://smba.trafficmanager.net/amer/"
+  },
+  "scenario": "/scenarios/ProActiveTeams",
+  "args": {
+    "Doctor": "",
+    "PatientName": "",
+    "PatientDob": "",
+    "Symptoms": "",
+    "Identifier": "",
+    "SignSymptomMention": "",
+    "MedicationMention": "",
+    "DiseaseDisorderMention": "",
+    "AnatomicalSiteMention": ""
+  }
+}
